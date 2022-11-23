@@ -1,5 +1,5 @@
 export default {
-  MAIN_COLOR: '#5c0049',
+  MAIN_COLOR: '#027A56',
   MAIN_DARK: '',
   ACCENT_COLOR: '',
   ACCENT_GRAY: '#19181A',

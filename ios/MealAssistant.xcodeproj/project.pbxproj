@@ -14,13 +14,19 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-MealAssistant-MealAssistantTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MealAssistant-MealAssistantTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		91826784FEDA4BC6AA32A4F0 /* CooperHewitt-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 288C79A1B8A343AA80318D16 /* CooperHewitt-Bold.otf */; };
-		382FD4061F97471398641DC0 /* CooperHewitt-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD680C9FAC2B4C7BBFE67821 /* CooperHewitt-Book.otf */; };
-		764A642533844EF0A53D938F /* CooperHewitt-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5944E053E924B01849FAFED /* CooperHewitt-Heavy.otf */; };
-		5E6E0C072F084ABD8DBF2014 /* CooperHewitt-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 33FDD9E729C24D4595793D04 /* CooperHewitt-Light.otf */; };
-		6EA4471B6C704BBCBCD213BB /* CooperHewitt-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94AF455F75794230803C9378 /* CooperHewitt-Medium.otf */; };
-		9D02B5C0E3524218B52168A4 /* CooperHewitt-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AB483D24D461405885A510DF /* CooperHewitt-Semibold.otf */; };
-		F1ABBD02CA51442AB4B150B4 /* CooperHewitt-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = A981F4EBAD8A4C79AF83F89F /* CooperHewitt-Thin.otf */; };
+		1D3C80EE1C9C4C25A7D3084F /* 1616798219629-download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5EDB7506E10149B29748411D /* 1616798219629-download.jpeg */; };
+		FC76115F8782471F81B568D1 /* FormatFactorypexels-aenic-visuals-3551498.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D82CB3916BB848F1A91F33F1 /* FormatFactorypexels-aenic-visuals-3551498.jpg */; };
+		C5959377DC534AEFA273C736 /* FormatFactorypexels-aleksey-kuprikov-3493730.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2616ED7B2744C9B9DEF9AA9 /* FormatFactorypexels-aleksey-kuprikov-3493730.jpg */; };
+		F54400CA3F964FFDB5AEFC9C /* FormatFactorypexels-jan-kopřiva-3614358.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D03249CC0AC54172B41509FE /* FormatFactorypexels-jan-kopřiva-3614358.jpg */; };
+		B945AD2F08444DE399286132 /* FormatFactorypexels-josiah-farrow-3396657.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F1E095CFFBC4049ABEE209C /* FormatFactorypexels-josiah-farrow-3396657.jpg */; };
+		33D5967A08E842218B0934F7 /* FormatFactorypexels-laura-the-explaura-3608263.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD6193271223451B9FB05BEA /* FormatFactorypexels-laura-the-explaura-3608263.jpg */; };
+		68A6ACA0466F45C08838C9C4 /* FormatFactorypexels-riekus-8316281.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8678BC19AF9D41A09446658D /* FormatFactorypexels-riekus-8316281.jpg */; };
+		7CFC7D605748414C8D74138E /* FormatFactorypexels-screen-post-7745560.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDE656D659634B628A9B29D2 /* FormatFactorypexels-screen-post-7745560.jpg */; };
+		C61E08E05C2C4267BDBB33DF /* FormatFactorypexels-vijay-saiwal-4810501.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B02403889694369B5B87A22 /* FormatFactorypexels-vijay-saiwal-4810501.jpg */; };
+		192446D7C90B4EC5A55DD5E4 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEF0EAD77F754FECBCAC4F8F /* Roboto-Bold.ttf */; };
+		B8DE89654DB4463DBC794399 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D66E8840248E46C89F1BD985 /* Roboto-Italic.ttf */; };
+		66552782A4244668AEDAFE86 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F41E4694F4E4FEDA4E01223 /* Roboto-Regular.ttf */; };
+		C50E79484D1D4868BEE88A50 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C59DC4ED5A44D87A4B149FF /* Roboto-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,13 +57,19 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MealAssistant/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-MealAssistant-MealAssistantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealAssistant-MealAssistantTests.release.xcconfig"; path = "Target Support Files/Pods-MealAssistant-MealAssistantTests/Pods-MealAssistant-MealAssistantTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		288C79A1B8A343AA80318D16 /* CooperHewitt-Bold.otf */ = {isa = PBXFileReference; name = "CooperHewitt-Bold.otf"; path = "../assets/fonts/CooperHewitt-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CD680C9FAC2B4C7BBFE67821 /* CooperHewitt-Book.otf */ = {isa = PBXFileReference; name = "CooperHewitt-Book.otf"; path = "../assets/fonts/CooperHewitt-Book.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B5944E053E924B01849FAFED /* CooperHewitt-Heavy.otf */ = {isa = PBXFileReference; name = "CooperHewitt-Heavy.otf"; path = "../assets/fonts/CooperHewitt-Heavy.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		33FDD9E729C24D4595793D04 /* CooperHewitt-Light.otf */ = {isa = PBXFileReference; name = "CooperHewitt-Light.otf"; path = "../assets/fonts/CooperHewitt-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		94AF455F75794230803C9378 /* CooperHewitt-Medium.otf */ = {isa = PBXFileReference; name = "CooperHewitt-Medium.otf"; path = "../assets/fonts/CooperHewitt-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AB483D24D461405885A510DF /* CooperHewitt-Semibold.otf */ = {isa = PBXFileReference; name = "CooperHewitt-Semibold.otf"; path = "../assets/fonts/CooperHewitt-Semibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A981F4EBAD8A4C79AF83F89F /* CooperHewitt-Thin.otf */ = {isa = PBXFileReference; name = "CooperHewitt-Thin.otf"; path = "../assets/fonts/CooperHewitt-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5EDB7506E10149B29748411D /* 1616798219629-download.jpeg */ = {isa = PBXFileReference; name = "1616798219629-download.jpeg"; path = "../assets/images/1616798219629-download.jpeg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D82CB3916BB848F1A91F33F1 /* FormatFactorypexels-aenic-visuals-3551498.jpg */ = {isa = PBXFileReference; name = "FormatFactorypexels-aenic-visuals-3551498.jpg"; path = "../assets/images/FormatFactorypexels-aenic-visuals-3551498.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A2616ED7B2744C9B9DEF9AA9 /* FormatFactorypexels-aleksey-kuprikov-3493730.jpg */ = {isa = PBXFileReference; name = "FormatFactorypexels-aleksey-kuprikov-3493730.jpg"; path = "../assets/images/FormatFactorypexels-aleksey-kuprikov-3493730.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D03249CC0AC54172B41509FE /* FormatFactorypexels-jan-kopřiva-3614358.jpg */ = {isa = PBXFileReference; name = "FormatFactorypexels-jan-kopřiva-3614358.jpg"; path = "../assets/images/FormatFactorypexels-jan-kopřiva-3614358.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6F1E095CFFBC4049ABEE209C /* FormatFactorypexels-josiah-farrow-3396657.jpg */ = {isa = PBXFileReference; name = "FormatFactorypexels-josiah-farrow-3396657.jpg"; path = "../assets/images/FormatFactorypexels-josiah-farrow-3396657.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AD6193271223451B9FB05BEA /* FormatFactorypexels-laura-the-explaura-3608263.jpg */ = {isa = PBXFileReference; name = "FormatFactorypexels-laura-the-explaura-3608263.jpg"; path = "../assets/images/FormatFactorypexels-laura-the-explaura-3608263.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8678BC19AF9D41A09446658D /* FormatFactorypexels-riekus-8316281.jpg */ = {isa = PBXFileReference; name = "FormatFactorypexels-riekus-8316281.jpg"; path = "../assets/images/FormatFactorypexels-riekus-8316281.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EDE656D659634B628A9B29D2 /* FormatFactorypexels-screen-post-7745560.jpg */ = {isa = PBXFileReference; name = "FormatFactorypexels-screen-post-7745560.jpg"; path = "../assets/images/FormatFactorypexels-screen-post-7745560.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B02403889694369B5B87A22 /* FormatFactorypexels-vijay-saiwal-4810501.jpg */ = {isa = PBXFileReference; name = "FormatFactorypexels-vijay-saiwal-4810501.jpg"; path = "../assets/images/FormatFactorypexels-vijay-saiwal-4810501.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EEF0EAD77F754FECBCAC4F8F /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D66E8840248E46C89F1BD985 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2F41E4694F4E4FEDA4E01223 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2C59DC4ED5A44D87A4B149FF /* Roboto-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,13 +178,19 @@
 		FA4D884AE7E9420B8731C88D /* Resources */ = {
 			isa = "PBXGroup";
 			children = (
-				288C79A1B8A343AA80318D16 /* CooperHewitt-Bold.otf */,
-				CD680C9FAC2B4C7BBFE67821 /* CooperHewitt-Book.otf */,
-				B5944E053E924B01849FAFED /* CooperHewitt-Heavy.otf */,
-				33FDD9E729C24D4595793D04 /* CooperHewitt-Light.otf */,
-				94AF455F75794230803C9378 /* CooperHewitt-Medium.otf */,
-				AB483D24D461405885A510DF /* CooperHewitt-Semibold.otf */,
-				A981F4EBAD8A4C79AF83F89F /* CooperHewitt-Thin.otf */,
+				5EDB7506E10149B29748411D /* 1616798219629-download.jpeg */,
+				D82CB3916BB848F1A91F33F1 /* FormatFactorypexels-aenic-visuals-3551498.jpg */,
+				A2616ED7B2744C9B9DEF9AA9 /* FormatFactorypexels-aleksey-kuprikov-3493730.jpg */,
+				D03249CC0AC54172B41509FE /* FormatFactorypexels-jan-kopřiva-3614358.jpg */,
+				6F1E095CFFBC4049ABEE209C /* FormatFactorypexels-josiah-farrow-3396657.jpg */,
+				AD6193271223451B9FB05BEA /* FormatFactorypexels-laura-the-explaura-3608263.jpg */,
+				8678BC19AF9D41A09446658D /* FormatFactorypexels-riekus-8316281.jpg */,
+				EDE656D659634B628A9B29D2 /* FormatFactorypexels-screen-post-7745560.jpg */,
+				3B02403889694369B5B87A22 /* FormatFactorypexels-vijay-saiwal-4810501.jpg */,
+				EEF0EAD77F754FECBCAC4F8F /* Roboto-Bold.ttf */,
+				D66E8840248E46C89F1BD985 /* Roboto-Italic.ttf */,
+				2F41E4694F4E4FEDA4E01223 /* Roboto-Regular.ttf */,
+				2C59DC4ED5A44D87A4B149FF /* Roboto-Thin.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -274,13 +292,19 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				91826784FEDA4BC6AA32A4F0 /* CooperHewitt-Bold.otf in Resources */,
-				382FD4061F97471398641DC0 /* CooperHewitt-Book.otf in Resources */,
-				764A642533844EF0A53D938F /* CooperHewitt-Heavy.otf in Resources */,
-				5E6E0C072F084ABD8DBF2014 /* CooperHewitt-Light.otf in Resources */,
-				6EA4471B6C704BBCBCD213BB /* CooperHewitt-Medium.otf in Resources */,
-				9D02B5C0E3524218B52168A4 /* CooperHewitt-Semibold.otf in Resources */,
-				F1ABBD02CA51442AB4B150B4 /* CooperHewitt-Thin.otf in Resources */,
+				1D3C80EE1C9C4C25A7D3084F /* 1616798219629-download.jpeg in Resources */,
+				FC76115F8782471F81B568D1 /* FormatFactorypexels-aenic-visuals-3551498.jpg in Resources */,
+				C5959377DC534AEFA273C736 /* FormatFactorypexels-aleksey-kuprikov-3493730.jpg in Resources */,
+				F54400CA3F964FFDB5AEFC9C /* FormatFactorypexels-jan-kopřiva-3614358.jpg in Resources */,
+				B945AD2F08444DE399286132 /* FormatFactorypexels-josiah-farrow-3396657.jpg in Resources */,
+				33D5967A08E842218B0934F7 /* FormatFactorypexels-laura-the-explaura-3608263.jpg in Resources */,
+				68A6ACA0466F45C08838C9C4 /* FormatFactorypexels-riekus-8316281.jpg in Resources */,
+				7CFC7D605748414C8D74138E /* FormatFactorypexels-screen-post-7745560.jpg in Resources */,
+				C61E08E05C2C4267BDBB33DF /* FormatFactorypexels-vijay-saiwal-4810501.jpg in Resources */,
+				192446D7C90B4EC5A55DD5E4 /* Roboto-Bold.ttf in Resources */,
+				B8DE89654DB4463DBC794399 /* Roboto-Italic.ttf in Resources */,
+				66552782A4244668AEDAFE86 /* Roboto-Regular.ttf in Resources */,
+				C50E79484D1D4868BEE88A50 /* Roboto-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

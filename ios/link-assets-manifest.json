@@ -2,32 +2,56 @@
   "migIndex": 1,
   "data": [
     {
-      "path": "assets/fonts/CooperHewitt-Bold.otf",
-      "sha1": "7f5bdefb8df026b29296325d21c9ae7f20db09ad"
+      "path": "assets/fonts/Roboto-Bold.ttf",
+      "sha1": "6cbb57ba2355cf442e06899898ff5af55867103e"
     },
     {
-      "path": "assets/fonts/CooperHewitt-Book.otf",
-      "sha1": "ce5285eb0275c94398442b364419fcc38848c2d4"
+      "path": "assets/fonts/Roboto-Italic.ttf",
+      "sha1": "4c4faf7a3fae4d0b1474561f0080995d358861ac"
     },
     {
-      "path": "assets/fonts/CooperHewitt-Heavy.otf",
-      "sha1": "57b32b78a0dc70d153aa70db83464a727e17720b"
+      "path": "assets/fonts/Roboto-Regular.ttf",
+      "sha1": "1d1d41fcadc571decb6444211b7993b99ce926e2"
     },
     {
-      "path": "assets/fonts/CooperHewitt-Light.otf",
-      "sha1": "cdf47a3175e2da5676170252b40664b45fe0657a"
+      "path": "assets/fonts/Roboto-Thin.ttf",
+      "sha1": "f71ccd563f95ccc187cf4fe81287445e91f7121b"
     },
     {
-      "path": "assets/fonts/CooperHewitt-Medium.otf",
-      "sha1": "a3833d44044c64c029a5b6edc2feb9c3158c94d5"
+      "path": "assets/images/1616798219629-download.jpeg",
+      "sha1": "ecf04f79e2b35cb57f8675902648b0c843e69383"
     },
     {
-      "path": "assets/fonts/CooperHewitt-Semibold.otf",
-      "sha1": "b1b2e3a1dabef9b16293a89733f29392e787f0a2"
+      "path": "assets/images/FormatFactorypexels-aenic-visuals-3551498.jpg",
+      "sha1": "6383549a654af443d3cd24fd16eaf6f2620a21d3"
     },
     {
-      "path": "assets/fonts/CooperHewitt-Thin.otf",
-      "sha1": "0d679adbb18d2223315bce168c0c5cfd0f2b311a"
+      "path": "assets/images/FormatFactorypexels-aleksey-kuprikov-3493730.jpg",
+      "sha1": "24e50e70218ecb3a606c09a51d7831bdad647956"
+    },
+    {
+      "path": "assets/images/FormatFactorypexels-jan-kopřiva-3614358.jpg",
+      "sha1": "8f0fb864e529268c1ef42bfecd4fef9ed881af60"
+    },
+    {
+      "path": "assets/images/FormatFactorypexels-josiah-farrow-3396657.jpg",
+      "sha1": "6961ff96a51286ad5c6c139dff4f6965a20fc938"
+    },
+    {
+      "path": "assets/images/FormatFactorypexels-laura-the-explaura-3608263.jpg",
+      "sha1": "ab9a7f083157d77bf07f8b5e123c3992a71fc9e7"
+    },
+    {
+      "path": "assets/images/FormatFactorypexels-riekus-8316281.jpg",
+      "sha1": "c694faa0139b57e360e458a83ccb5175d7596115"
+    },
+    {
+      "path": "assets/images/FormatFactorypexels-screen-post-7745560.jpg",
+      "sha1": "5ab34a0b09cb79228506b06e17f94433c0f1022c"
+    },
+    {
+      "path": "assets/images/FormatFactorypexels-vijay-saiwal-4810501.jpg",
+      "sha1": "e0e597a279fe719109a400e12cc4f140f0aa0409"
     }
   ]
 }

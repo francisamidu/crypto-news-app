@@ -41,13 +41,13 @@ const AppText = ({children, style, textType}: TextProps) => {
 
 const styles = StyleSheet.create({
   light: {
-    fontFamily: 'CooperHewitt-Light',
+    fontFamily: 'Roboto-Light',
   },
   bold: {
-    fontFamily: 'CooperHewitt-Bold',
+    fontFamily: 'Roboto-Bold',
   },
   regular: {
-    fontFamily: 'CooperHewitt-Book',
+    fontFamily: 'Roboto-Book',
   },
 });
 
