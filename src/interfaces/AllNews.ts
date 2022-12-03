@@ -1,10 +1,11 @@
-import {News, CryptoPrice} from '../src/interfaces';
-import {AirdropNewsResponse} from './AirdropNewsResponse';
+import {AirdropNewsResponse} from '../../types';
+import {CryptoPrice} from './CryptoPrice';
+import News from './News';
 
-export type AllNews = {
+export interface AllNews {
   airdrops: Array<AirdropNewsResponse>;
   bitcoinNews: Array<News>;
   cryptoNews: Array<News>;
   cryptoPrices: Array<CryptoPrice>;
   techNews: Array<News>;
-};
+}

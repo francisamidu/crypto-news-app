@@ -8,13 +8,14 @@ import React, {
   useEffect,
   useState,
 } from 'react';
-import {AirdropNewsResponse, AllNews} from '../../types';
+import {AirdropNewsResponse} from '../../types';
 import {
   formatDateSimple,
   formatCryptoNews,
   uid,
   formatCryptoPrice,
 } from '../helpers';
+import {AllNews} from '../interfaces';
 import {fetchAirdrops, fetchNews, fetchCryptoPrices} from '../services/Api';
 
 import imagePaths from '../shared/images';
@@ -49,107 +50,108 @@ export const NewsContextProvider = ({
     bitcoinNews: [],
     cryptoNews: [],
     cryptoPrices: [],
-    techNews: [
-      {
-        id: uid(),
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
-        image: image1,
-        publishedAt: formatDateSimple(new Date()),
-        source: 'CBS News',
-        title:
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
-        url: 'www.cbs.com/some-random-news-url',
-      },
-      {
-        id: uid(),
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
-        image: image2,
-        publishedAt: formatDateSimple(new Date()),
-        source: 'CBS News',
-        title:
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
-        url: 'www.cbs.com/some-random-news-url',
-      },
-      {
-        id: uid(),
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
-        image: image3,
-        publishedAt: formatDateSimple(new Date()),
-        source: 'CBS News',
-        title:
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
-        url: 'www.cbs.com/some-random-news-url',
-      },
-      {
-        id: uid(),
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
-        image: image4,
-        publishedAt: formatDateSimple(new Date()),
-        source: 'CBS News',
-        title:
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
-        url: 'www.cbs.com/some-random-news-url',
-      },
-      {
-        id: uid(),
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
-        image: image5,
-        publishedAt: formatDateSimple(new Date()),
-        source: 'CBS News',
-        title:
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
-        url: 'www.cbs.com/some-random-news-url',
-      },
-      {
-        id: uid(),
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
-        image: image6,
-        publishedAt: formatDateSimple(new Date()),
-        source: 'CBS News',
-        title:
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
-        url: 'www.cbs.com/some-random-news-url',
-      },
-      {
-        id: uid(),
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
-        image: image7,
-        publishedAt: formatDateSimple(new Date()),
-        source: 'CBS News',
-        title:
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
-        url: 'www.cbs.com/some-random-news-url',
-      },
-      {
-        id: uid(),
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
-        image: image8,
-        publishedAt: formatDateSimple(new Date()),
-        source: 'CBS News',
-        title:
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
-        url: 'www.cbs.com/some-random-news-url',
-      },
-      {
-        id: uid(),
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
-        image: image9,
-        publishedAt: formatDateSimple(new Date()),
-        source: 'CBS News',
-        title:
-          'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
-        url: 'www.cbs.com/some-random-news-url',
-      },
-    ],
+    techNews: [],
+    // techNews:[
+    //   {
+    //     id: uid(),
+    //     description:
+    //       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
+    //     image: image1,
+    //     publishedAt: formatDateSimple(new Date()),
+    //     source: 'CBS News',
+    //     title:
+    //       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
+    //     url: 'www.cbs.com/some-random-news-url',
+    //   },
+    //   {
+    //     id: uid(),
+    //     description:
+    //       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
+    //     image: image2,
+    //     publishedAt: formatDateSimple(new Date()),
+    //     source: 'CBS News',
+    //     title:
+    //       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
+    //     url: 'www.cbs.com/some-random-news-url',
+    //   },
+    //   {
+    //     id: uid(),
+    //     description:
+    //       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
+    //     image: image3,
+    //     publishedAt: formatDateSimple(new Date()),
+    //     source: 'CBS News',
+    //     title:
+    //       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
+    //     url: 'www.cbs.com/some-random-news-url',
+    //   },
+    //   {
+    //     id: uid(),
+    //     description:
+    //       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
+    //     image: image4,
+    //     publishedAt: formatDateSimple(new Date()),
+    //     source: 'CBS News',
+    //     title:
+    //       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
+    //     url: 'www.cbs.com/some-random-news-url',
+    //   },
+    //   {
+    //     id: uid(),
+    //     description:
+    //       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
+    //     image: image5,
+    //     publishedAt: formatDateSimple(new Date()),
+    //     source: 'CBS News',
+    //     title:
+    //       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
+    //     url: 'www.cbs.com/some-random-news-url',
+    //   },
+    //   {
+    //     id: uid(),
+    //     description:
+    //       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
+    //     image: image6,
+    //     publishedAt: formatDateSimple(new Date()),
+    //     source: 'CBS News',
+    //     title:
+    //       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
+    //     url: 'www.cbs.com/some-random-news-url',
+    //   },
+    //   {
+    //     id: uid(),
+    //     description:
+    //       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
+    //     image: image7,
+    //     publishedAt: formatDateSimple(new Date()),
+    //     source: 'CBS News',
+    //     title:
+    //       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
+    //     url: 'www.cbs.com/some-random-news-url',
+    //   },
+    //   {
+    //     id: uid(),
+    //     description:
+    //       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
+    //     image: image8,
+    //     publishedAt: formatDateSimple(new Date()),
+    //     source: 'CBS News',
+    //     title:
+    //       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
+    //     url: 'www.cbs.com/some-random-news-url',
+    //   },
+    //   {
+    //     id: uid(),
+    //     description:
+    //       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptate libero adipisci, tempore illo quisquam qui itaque consequatur accusamus commodi a quo asperiores vero rerum animi tempora harum consequuntur esse.',
+    //     image: image9,
+    //     publishedAt: formatDateSimple(new Date()),
+    //     source: 'CBS News',
+    //     title:
+    //       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae labore delectus amet esse ab aut commodi molestias',
+    //     url: 'www.cbs.com/some-random-news-url',
+    //   },
+    // ]
   });
   const [param, setParam] = useState('crypto');
   const queryNews = async () => {
@@ -203,13 +205,13 @@ export const NewsContextProvider = ({
         }
       }
     } catch (error) {
+      console.log(error);
       throw error;
     }
   };
 
   useEffect(() => {
-    console.log(Object.values(news).flat().length);
-    // queryNews();
+    queryNews();
     return () => {
       setNews({
         airdrops: [],
@@ -220,6 +222,10 @@ export const NewsContextProvider = ({
       });
     };
   }, [param]);
+
+  useEffect(() => {
+    console.log(news);
+  }, [news]);
 
   return (
     <NewsContext.Provider value={{news, param, setNews, setParam}}>

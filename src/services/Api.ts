@@ -7,7 +7,7 @@ import {
 } from '../../types';
 
 export const fetchAirdrops = async () => {
-  const options = {
+  const options:any = {
     method: 'GET',
     url: 'https://airdrops-free-crypto.p.rapidapi.com/airdrops',
     headers: {
@@ -26,7 +26,7 @@ export const fetchAirdrops = async () => {
   }
 };
 export const fetchCryptoPrices = async () => {
-  const options = {
+  const options:any = {
     method: 'GET',
     headers: {
       'X-RapidAPI-Key': Config.RAPIDAPI_KEY,
@@ -43,7 +43,7 @@ export const fetchCryptoPrices = async () => {
   }
 };
 export const fetchNews = async (param: string) => {
-  const options = {
+  const options:any = {
     method: 'GET',
     url: 'https://bing-news-search1.p.rapidapi.com/news/search',
     params: {
