@@ -6,23 +6,15 @@ import {
 import {Header, Loader, NewsCard, Tabs} from '../components';
 import {Grid, Row} from 'react-native-easy-grid';
 import {StyledFlashList as FlashList} from '../styles/theme';
-import {useNews} from '../contexts/NewsContextProvider';
 import {ListRenderItem} from '@shopify/flash-list';
 import {News as INews} from '../interfaces';
-import {AllNews} from '../../types';
+import {useAppSelector} from '../hooks/hooks';
 
 const Home = () => {
-  const {news, param} = useNews();
-  const [localNews, setLocalNews] = useState<AllNews>({
-    airdrops: [],
-    bitcoinNews: [],
-    cryptoNews: [],
-    cryptoPrices: [],
-    techNews: [],
-  });
+  const {news} = useAppSelector(state => state);
+
   const [isSet, setIsSet] = useState(false);
   useEffect(() => {
-    setLocalNews(news);
     const temp = Object.values(news).flat(Infinity).length;
     if (temp) setIsSet(true);
   }, [news]);
@@ -30,8 +22,9 @@ const Home = () => {
     <NewsCard news={item} key={item.id} />
   );
   const renderSection = () => {
-    switch (param) {
+    switch (news.searchParam) {
       case 'airdrop': {
+        break;
       }
       case 'bitcoin': {
         return (
@@ -42,11 +35,12 @@ const Home = () => {
             }}
             estimatedItemSize={50}
             renderItem={renderItem}
-            data={localNews.bitcoinNews}
+            data={news.bitcoinNews}
           />
         );
       }
       case 'crypto-prices': {
+        break;
       }
       case 'tech-news': {
         return (
@@ -57,7 +51,7 @@ const Home = () => {
             }}
             estimatedItemSize={50}
             renderItem={renderItem}
-            data={localNews.techNews}
+            data={news.techNews}
           />
         );
       }
@@ -70,7 +64,7 @@ const Home = () => {
             }}
             estimatedItemSize={50}
             renderItem={renderItem}
-            data={localNews.cryptoNews}
+            data={news.cryptoNews}
           />
         );
       }
